@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+body{
+    background-color: #E7D7F8;
+    font-family: 'Kalam', cursive;
+}
+
+/*NAV*/
+
+.bg-lavanda{
+    background-color: #B6D6F2;
+}
+
+#botonera img{
+    width: 150px;
+}
+
+#botonera ul li a{
+    color: #fff;
+    font-size: 1.5em;
+}
+
+#botonera ul li a:hover{
+    color: #3399CC;
+}
+
+/*MAIN*/
+
+h2{
+    color:#3399CC;
+    font-size: 2em;
+}
+
+/*CARDS*/
+.trabajosCard{
+    width: 300px;
+    height: auto;
+    padding: 0 0 30px;
+    margin: 30px auto;
+    box-shadow: 5px 6px 11px 0 rgba(20, 18, 20, 0.75);
+    background: #CBE7;
+    border-radius: 20px;
+}
+
+
+.imgCard{
+    width: 100%;
+    height: 300px;
+    border-radius: 20px 20px 0 0 ;
+}
+
+.textCard{
+    text-align: center;
+    color: #fff;
+    margin: 20px 0;
+}
+
+.cta{
+    display: block;
+    background-color: #B8BCE9;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+/*COMENTARIOS CLIENTES*/
+
+.clientesContainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.comentariosClientes{
+    width: 350px;
+    height: auto;
+    padding: 15px;
+    margin: 10px;
+    background: #CBE7;
+    border-radius: 10px;
+    text-align: center
+}
+
+.textClientes{
+    font-size: 1em;
+    color: #FFFFFF;
+}
+
+.imgClientes{
+    width: 30px;
+}
+
+
+/*GOOGLE MAPS*/
+
+.containerMaps{
+    display: flex;
+    flex-direction: column;
+}
+
+/*FOOTER*/
+
+.encabezadoFooter {
+    text-align: center;
+}
+
+
+footer h4 {
+    font-size: 20px;
+    color: #3399CC;
+    font-size: 1.5em;
+}
+
+.textImg{
+    text-decoration: none;
+}
+
+/*FORM*/
+
+.btnForm{
+    background-color: #B8BCE9;
+    color: #FFFFFF;
+    font-size: 1.2em;
+}
+
+.textForm{
+    color: #FFFFFF;
+    font-size: 1.2em;
+}
