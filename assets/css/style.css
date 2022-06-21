@@ -29,7 +29,15 @@ body{
 h2{
     color:#3399CC;
     font-size: 2em;
+    font-weight: 700;
 }
+
+h3{
+    color:#3399CC;
+    font-size: 1,2em;
+    font-weight: 400;
+}
+
 
 /*CARDS*/
 .trabajosCard{
@@ -133,4 +141,41 @@ footer h4 {
 .textForm{
     color: #FFFFFF;
     font-size: 1.2em;
+}
+
+
+/*SOUVENIRS Y FIGURAS*/
+
+.galeria{
+    padding: 20px 0;
+}
+
+.galeriaImg{
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/*NOSOTROS*/
+
+.sobreNosotros img{
+    width: 50%;
+}
+
+.textoNosotros {
+    text-align: center;
+    margin: auto;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 1.4;
+}
+
+
+.sobreNosotros{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: 	#def3fd;
+    padding: 10px;
 }
