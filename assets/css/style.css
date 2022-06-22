@@ -12,7 +12,7 @@ body{
 }
 
 #botonera img{
-    width: 150px;
+    width: 100px;
 }
 
 #botonera ul li a{
@@ -28,8 +28,9 @@ body{
 
 h2{
     color:#3399CC;
-    font-size: 2em;
+    font-size: 2.2em;
     font-weight: 700;
+    padding-top: 10px;
 }
 
 h3{
@@ -41,15 +42,20 @@ h3{
 
 /*CARDS*/
 .trabajosCard{
-    width: 300px;
+    width: 280px;
     height: auto;
-    padding: 0 0 30px;
+    padding: 0 0 20px;
     margin: 30px auto;
     box-shadow: 5px 6px 11px 0 rgba(20, 18, 20, 0.75);
     background: #CBE7;
     border-radius: 20px;
 }
 
+.trabajosScale:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: 2s;
+}
 
 .imgCard{
     width: 100%;
@@ -61,12 +67,15 @@ h3{
     text-align: center;
     color: #fff;
     margin: 20px 0;
+    font-size: 1.2em;
+    font-weight: 300;
 }
 
 .cta{
     display: block;
     background-color: #B8BCE9;
     color: #fff;
+    font-size: 1.2em;
     padding: 10px 0;
     text-align: center;
     width: 150px;
@@ -93,8 +102,20 @@ h3{
     margin: 10px;
     background: #CBE7;
     border-radius: 10px;
-    text-align: center
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 300;
 }
+
+.comentrariosTransition{
+    transition: 3s
+}
+
+.comentariosTransition:hover{
+    cursor: pointer;
+    background: #CBF8
+}
+
 
 .textClientes{
     font-size: 1em;
@@ -117,13 +138,14 @@ h3{
 
 .encabezadoFooter {
     text-align: center;
+    padding-bottom: 20px;
 }
 
 
 footer h4 {
-    font-size: 20px;
     color: #3399CC;
     font-size: 1.5em;
+    font-weight: 400;
 }
 
 .textImg{
@@ -157,25 +179,126 @@ footer h4 {
     border-radius: 10px;
 }
 
+/*TAZAS*/
+
+.tazaImg{
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.brilloImg{
+    transition: 0.5s filter;
+}
+
+.brilloImg:hover{
+    filter: contrast(0.6);
+}
+
 /*NOSOTROS*/
-
-.sobreNosotros img{
-    width: 50%;
-}
-
-.textoNosotros {
-    text-align: center;
-    margin: auto;
-    font-size: 1rem;
-    letter-spacing: 1px;
-    line-height: 1.4;
-}
-
 
 .sobreNosotros{
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: 	#def3fd;
-    padding: 10px;
+    background: #CBE7; 
+}
+
+.sobreNosotros h3{
+    text-align: center;
+    font-size: 1.7em;
+}
+
+.sobreNosotros img{
+    width: 50%;
+    padding-top: 10px;
+}
+
+.textNosotros{
+    text-align: center;
+    margin: auto;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    color: #FFFFFF;
+}
+
+
+/*MEDIA QUERIES*/
+
+@media only screen and (min-width:768px){
+    h2{
+        font-size: 2.5em;
+        padding-top: 20px;
+    }
+
+    /*NAV*/
+    #botonera img{
+        width: 120px;
+    }
+    /*CARDS*/
+    .trabajosCard{
+        width: 300px;
+    }
+
+    .textCard{
+        margin: 10px 0;
+        font-size: 1.2em;
+    }
+    
+    .cta{
+        font-size: 1.1em;
+        padding: 10px 0;
+    }
+
+    /*FOOTER*/
+    footer h4 {
+        font-size: 2em;
+    }
+}
+
+
+@media only screen and (min-width:1024px){
+    h2{
+        font-size: 3em;
+        padding-top: 15px;
+    }
+
+    /*NAV*/
+    #botonera img{
+        width: 150px;
+    }
+
+    #botonera ul li a{
+        font-size: 2em;
+    }
+
+    /*CARDS*/
+    .textCard{
+        margin: 10px 0;
+        font-size: 1.5em;
+    }
+    
+    .cta{
+        font-size: 1.4em;
+        padding: 10px 0;
+    }
+
+    /*COMENTARIOS CLIENTES*/
+    .textClientes{
+        font-size: 1.1em;
+    }
+    
+    /*NOSOTROS*/
+    .textNosotros{
+        font-size: 1.5em;
+        line-height: 1.2;
+    }
+
+    .sobreNosotros h3{
+        font-size: 2.5em;
+        font-weight: 400;
+        padding: 10px 0;
+    }
 }
