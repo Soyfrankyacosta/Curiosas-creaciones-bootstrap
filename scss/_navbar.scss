@@ -1,0 +1,18 @@
+/*INDEX*/
+/*NAV*/
+#botonera{
+    background-color: $primaryColor;
+    img{
+        width: 150px;
+    }
+    a{
+        color: $secondaryColor;
+        font-family: $tittleFont;
+        font-size: 2em;
+        &:hover{
+            color: $textColor;
+        }
+    }
+
+}
+
